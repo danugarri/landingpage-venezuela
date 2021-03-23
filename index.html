@@ -1,0 +1,242 @@
+﻿
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!--<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> -->  <!--****esta línea no puede ir junto con la metatag de bootstrap****-->
+    <link rel="shortcut icon" href="favicon.png" />  <!--mi FAVICON-->
+    <link rel="stylesheet" type="text/css" href="estilos.css"/>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- Required meta tags for BOOTSTRAP-->
+   <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+   <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">-->
+   
+    <title>Venezuela</title>
+  </head>
+  <body>
+  <a id="volver"></a>
+  <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+  <div class="header">
+  <h1>Bienvenidos a VENEZUELA</h1>
+   
+<!--enlaces a SECCIONES internas-->
+
+<a href="#descrip">Ir a Descripci&oacute;n</a>
+<a href="#imagenes">ir a imag&eacute;nes</a>
+<a href="#video">Ir a v&iacute;deos</a>
+<a href="#audio">Ir a audios</a>
+<a href="#lugar">Ir a lugares de inter&eacute;s</a>
+  </div>
+  <!--cierro header-->
+<!--sección Descripción-->
+    <div> 
+    <a id="des"></a>
+    <h3>Descripci&oacute;n</h3>   <!--UTILIZO EN EL TEXTO LA ENTIDAD &(letra)acute; para las tildes-->
+    <!--6 párrafos diferentes con la descripción del país (etiquetas <p>)-->
+  <p class="impar">Venezuela, oficialmente Rep&uacute;blica Bolivariana de Venezuela, es un pa&iacute;s situado en la parte septentrional de Am&eacute;rica del Sur, constituido por un &aacute;rea continental y por un gran n&uacute;mero de islas e islotes en el mar Caribe, cuya capital y mayor aglomeraci&oacute;n urbana es la ciudad de Caracas.</p>
+  <p>Posee una extensi&oacute;n territorial de 916 445 km². El territorio continental limita al norte con el mar Caribe y el oc&eacute;ano Atl&aacute;ntico, al oeste con Colombia, al sur con Brasil y por el este con Guyana. </p>
+  <p class="impar"> El pa&iacute;s tiene una biodiversidad muy alta y ocupa el s&eacute;ptimo lugar en la lista mundial de naciones con mayor cantidad de especies. Existen h&aacute;bitats que van desde las montañas de los Andes en occidente hasta la selva tropical de la cuenca del Amazonas en el sur, a trav&eacute;s de las extensas planicies de los Llanos, la costa del Caribe y el delta del r&iacute;o Orinoco en el oriente.</p>
+  <p >Clima de Venezuela</p>
+  <p class="impar">Por encontrarse en el tr&oacute;pico, Venezuela posee un clima c&aacute;lido y lluvioso con dos estaciones: </p>
+  <p >una estación seca, que va desde octubre a marzo, y una estaci&oacute;n lluviosa, de abril a septiembre. Pero debido a la orograf&iacute;a, los vientos y el mar, hay diferencias climáticas. </p>
+  <p class="impar">La latitud tiene poca importancia, pero la altitud cambia drásticamente el clima, especialmente la temperatura, alcanzando valores muy diferentes.</p>  
+ </div>
+ <!--Una sección galería de imágenes, donde se mostrará al menos 10 imágenes del país(<img>)-->
+ <div>
+ <a id="imagenes"></a>
+ <h3>Im&aacute;genes</h3>
+  
+<!--código de bootstrap para hacer un carousel de imágnes-->
+<div class="container">
+<div class="row">
+<div class="col-sm-12 col-md-6 col-lg-6">
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+     <div class="carousel-item active">
+      <img src="https://www.lifeder.com/wp-content/uploads/2017/04/regiones-climaticas-venezuela.png" class="d-block w-100" alt="clima de venezuela">
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.cuandovisitar.es/uploads/2017/10/beste-reistijd-venezuela-640x360.jpg" alt="imagen de venezuela" class="d-block w-100" >
+    </div>
+    <div class="carousel-item">
+      <img  src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Flag_of_Venezuela.svg/1200px-Flag_of_Venezuela.svg.png" alt="bandera venezuela" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Venezuela_-_Carabobo_-_Bejuma.svg/1200px-Venezuela_-_Carabobo_-_Bejuma.svg.png" alt="bejuma1" class="d-block w-100" >
+    </div>
+    <div class="carousel-item">
+      <img  src="https://staticr1.blastingcdn.com/media/photogallery/2017/3/26/660x290/b_1200x675/excursiones-por-los-llanos-de-venezuela_1232943.jpg" alt="los llanos-capivaras" class="d-block w-100" >
+    </div>
+    <div class="carousel-item">
+      <img src="https://sfo2.digitaloceanspaces.com/estaticos/var/www/html/wp-content/uploads/2019/12/IMG-20191216-WA0022.jpg" alt="perezoso" class="d-block w-100" >
+    </div>
+    <div class="carousel-item">
+      <img  src="https://1.bp.blogspot.com/_JpdHqM5W15M/RsZ5TUqAyqI/AAAAAAAAAGY/rG6ZEgR4GMs/s320/isladorada.JPG" alt="maracaibo" class="d-block w-100" >
+    </div>
+    <div class="carousel-item">
+      <img src="https://tortugame.com/wp-content/uploads/2020/02/Tortuga-Morrocoy-e1581015712555.jpg" alt="morrocoy" class="d-block w-100" >
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.venezuelatuya.com/natura/imagenes/041galbogularis.jpg" alt="tuqueque" class="d-block w-100" >
+    </div>
+    <div class="carousel-item"><!--imagen 10-->
+      <img  src="https://i.pinimg.com/originals/4d/77/fd/4d77fd5983f328f91da1f111645f14da.jpg" alt="valencia-carabobo" class="d-block w-100" >
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+ 
+ <!--este trozo de código lo he sustituido por el CAROUSEL DE BOOTSTRAP
+ <p><img alt="clima de venezuela" src="https://www.lifeder.com/wp-content/uploads/2017/04/regiones-climaticas-venezuela.png" /></p>
+ <p><img src="https://www.cuandovisitar.es/uploads/2017/10/beste-reistijd-venezuela-640x360.jpg" alt="imagen de venezuela"/></p>
+ <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Flag_of_Venezuela.svg/1200px-Flag_of_Venezuela.svg.png" alt="bandera venezuela"/></p>
+ <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Venezuela_-_Carabobo_-_Bejuma.svg/1200px-Venezuela_-_Carabobo_-_Bejuma.svg.png" alt="bejuma1"/></p>
+ <p><img src="https://staticr1.blastingcdn.com/media/photogallery/2017/3/26/660x290/b_1200x675/excursiones-por-los-llanos-de-venezuela_1232943.jpg" alt="los llanos-capivaras"/></p>
+ <p><img src="https://sfo2.digitaloceanspaces.com/estaticos/var/www/html/wp-content/uploads/2019/12/IMG-20191216-WA0022.jpg" alt="perezoso"/></p>
+ <p><img src="https://1.bp.blogspot.com/_JpdHqM5W15M/RsZ5TUqAyqI/AAAAAAAAAGY/rG6ZEgR4GMs/s320/isladorada.JPG" alt="maracaibo"/></p>
+ <p><img src="https://tortugame.com/wp-content/uploads/2020/02/Tortuga-Morrocoy-e1581015712555.jpg" alt="morrocoy"/></p>
+ <p><img src="https://www.venezuelatuya.com/natura/imagenes/041galbogularis.jpg" alt="tuqueque"/></p>
+ <p><img src="https://i.pinimg.com/originals/4d/77/fd/4d77fd5983f328f91da1f111645f14da.jpg" alt="valencia-carabobo"/></p>
+  </div>
+  -->
+ <div>
+ <a id="video"></a>
+ <h3>V&iacute;deos</h3>
+ <!--Una sección videos donde se mostrará al menos 5 videos del país (<video>)-->
+ <div class="container">
+<div class="row">
+<div class="col-sm-12 col-smd-6 col-lg-6">
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <video src="venezuela.mp4" controls class="d-block w-100"></video>
+      <div class="carousel-caption d-none d-md-block">
+        <h5>video1</h5>
+        <p>VENEZUELA</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <video src="venezuela.mp4" controls class="d-block w-100"></video>
+      <div class="carousel-caption d-none d-md-block">
+        <h5>video 2</h5>
+        <p>VENEZUELA</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <video src="venezuela.mp4" controls class="d-block w-100"></video>
+      <div class="carousel-caption d-none d-md-block">
+        <h5>video 3</h5>
+        <p>VENEZUELA</p>
+      </div>
+      </div>
+      <div class="carousel-item">
+      <video src="venezuela.mp4" controls class="d-block w-100"></video>
+      <div class="carousel-caption d-none d-md-block">
+        <h5>video 4</h5>
+        <p>VENEZUELA</p>
+      </div>
+      </div>
+      <div class="carousel-item">
+      <video src="venezuela.mp4" controls class="d-block w-100" ></video>
+      <div class="carousel-caption d-none d-md-block">
+        <h5>video 5</h5>
+      <p>VENEZUELA</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+</div>
+</div> 
+</div>
+
+ 
+ <!--ESTE CÓDIGO lo he sustituido por EL CAROUSEL
+ </div>
+<p><object type="application/x-shockwave-flash" style="width:425px;height:350px" data="https://www.youtube.com/v/xMjj_M5cgN8"><param name="movie" value="https://www.youtube.com/v/xMjj_M5cgN8" /></object></p>
+<p><object type="application/x-shockwave-flash" style="width:425px;height:350px" data="https://www.youtube.com/v/xMjj_M5cgN8"><param name="movie" value="https://www.youtube.com/v/xMjj_M5cgN8" /></object></p>
+<p><object type="application/x-shockwave-flash" style="width:425px;height:350px" data="https://www.youtube.com/v/xMjj_M5cgN8"><param name="movie" value="https://www.youtube.com/v/xMjj_M5cgN8" /></object></p>
+<p><object type="application/x-shockwave-flash" style="width:425px;height:350px" data="https://www.youtube.com/v/xMjj_M5cgN8"><param name="movie" value="https://www.youtube.com/v/xMjj_M5cgN8" /></object></p>
+<p><object type="application/x-shockwave-flash" style="width:425px;height:350px" data="https://www.youtube.com/v/xMjj_M5cgN8"><param name="movie" value="https://www.youtube.com/v/xMjj_M5cgN8" /></object></p>
+</div>
+-->
+<!--Una sección de audios donde se mostrará al menos 5 audios del país (<audio>)-->
+<div>
+<a id="audio"></a>
+<h3><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-music-fill" viewBox="0 0 16 16">
+  <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm-.5 4.11v1.8l-2.5.5v5.09c0 .495-.301.883-.662 1.123C7.974 12.866 7.499 13 7 13c-.5 0-.974-.134-1.338-.377-.36-.24-.662-.628-.662-1.123s.301-.883.662-1.123C6.026 10.134 6.501 10 7 10c.356 0 .7.068 1 .196V4.41a1 1 0 0 1 .804-.98l1.5-.3a1 1 0 0 1 1.196.98z"/>
+</svg>Audios</h3>
+
+<audio src="Himno.mp3" controls ></audio>
+<audio src="Himno.mp3" controls ></audio>
+<audio src="Himno.mp3" controls ></audio>
+<audio src="Himno.mp3" controls ></audio>
+<audio src="Himno.mp3" controls ></audio>
+</div>
+<a id="lugar"></a>
+<div>
+
+<h3>Enlaces a Luagares de inter&eacute;s</h3>
+<!--Una sección de lugares de interés contendrá enlaces a un web del lugar al menos 5-->
+<ul>
+<li class="impar">
+  <a href="https://www.venezuelatuya.com/centro/bejuma.htm">Bejuma</a>
+</li>
+<li class="par">
+<a href="https://es.wikipedia.org/wiki/Parque_nacional_Canaima">Canaima</a>
+</li>
+<li class="impar">
+<a href="https://www.venezuelatuya.com/centro/valencia.htm">Valencia en el estado de Carabobo</a>
+</li>
+<li class="par">
+<a href="https://elpais.com/internacional/2018/04/17/mundo_global/1523953404_451369.html">Colonia tovar</a>
+</li>
+<li class="impar">
+<a href="https://www.venezuelatuya.com/caracas/index.htm">Caracas</a>
+</li>
+</ul>
+</div>
+<a  href="#volver" ><img  class="flecha" src="https://toppng.com/uploads/preview/flechas-hacia-arriba-11550104472d5q7umkbyh.png" alt="volver" width="30" height="30" /></a>
+  <br/>
+  <p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="¡CSS Válido!" />
+    </a>
+</p>
+            
+  </body>
+</html>
+

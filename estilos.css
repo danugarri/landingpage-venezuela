@@ -1,0 +1,47 @@
+
+body
+{
+padding:20px;
+}
+.header
+{
+background-color:#E3E3E3;
+border: black 4px solid;
+text-align:center;
+}
+a
+{
+display:block;
+font-family: 'Permanent Marker', cursive;
+}
+H3
+{
+background-color:black;
+color:#FFFFFF;
+padding:20px;
+}
+.impar
+{
+background-color:#E3E3E3;
+}
+IMG
+{
+border-left:#000000 10px solid;
+}
+.flecha
+{
+border-left:white 0px solid;
+}
+VIDEO
+{
+border:#E3E3E3 5px solid;
+}
+UL .li .par
+{
+background-color:#FFFFFF;
+}
+UL .li .par
+{
+background-color:#E3E3E3;
+}
+
